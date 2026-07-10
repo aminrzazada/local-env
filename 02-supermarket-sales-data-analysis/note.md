@@ -1,0 +1,19 @@
+# Supermarket Satış Datası üzrə Təmizləmə və İlkin Biznes Analizi Hesabatı
+
+## 1. Data Təmizləmə Addımları 
+- **Datanın Yüklənməsi:** İlkin supermarket satış datası uğurla yükləndi. Dataset tam olaraq **1000 sətir və 17 sütundan** ibarətdir.
+- **Tarix və Saat Formatının Düzəldilməsi:** Sifariş tarixlərini və zamanlarını ehtiva edən `Date` və `Time` sütunları mətn (object) tipindən standart Python `datetime` formatına uğurla çevrildi. Pik saatları analiz etmək üçün `Time` sütunundan əlavə olaraq `Hour`  parametri çıxarıldı.
+- **Boş Xanaların İdarə Olunması (Missing Values):** Dataset daxilindəki bütün sütunlar üzrə boşluq (missing value) yoxlanışı aparıldı. Hesabat nəticələrinə əsasən datada heç bir buraxılmış və ya boş xana aşkar edilməmişdir. Hazırda datada **0 boş xana** mövcuddur və data tam təmizdir.
+- **Dublikatların Yoxlanılması:** Dataset daxilində eyni faktura ID-sinə malik tam təkrarlanan sətirlər yoxlanıldı və heç bir dublikat qeyd qeydə alınmadı.
+
+## 2. Əsas Statistik Göstəricilər 
+- **Filial Bölgüsü :** Supermarket şəbəkəsinin 3 əsas filialı (A, B, C) üzrə sifariş paylanması olduqca balanslıdır; hər bir filialda təxminən bərabər sayda (**333 sifariş**) qeydə alınmışdır.
+- **Müştəri Məmnuniyyəti (Rating):** Müştərilərin alış-veriş təcrübəsini göstərən ortalama rating **6.97/10** təşkil edir. Filiallar arasında müştəri məmnuniyyəti fərqi minimal səviyyədədir.
+- **Satış Həcmi üzrə Liderlər:** Ümumi gəlir bazasında ən yüksək satış həcmi **$56,000** ilə `Food and Beverages` (Qida və İçkilər) kateqoriyasına məxsusdur, dərhal ardınca isə **$55,000** ilə `Sports and Travel` (İdman və Səyahət) kateqoriyası gəlir.
+
+## 3. Biznes Anlayışları 
+1. **Pik Saatların İdarə Edilməsi və İşçi Qüvvəsinin Optimallaşdırılması:** Supermarketlərin gün ərzində ən aktiv və gur saatları günorta **13:00**  və axşam **19:00**  radələridir. Biznes baxımından, bu saatlarda kassa xətlərində növbələri azaltmaq, müştəri məmnuniyyəti qorumaq və potensial satış itkilərinin qarşısını almaq üçün kassa sayı artırılmalı və işçi qüvvəsi qrafiki məhz bu saatlara uyğun optimallaşdırılmalıdır.
+2. **Kateqoriya Strategiyası :** `Food and beverages` və `Sports and travel` şirkətin əsas gəlir lokomotivləridir. Məhsulların mağaza daxilində daha görünən (premium) vitrinlərdə yerləşdirilməsi və yüksək gəlirli kateqoriyalar ile aşağı gəlir gətirən `Health and beauty`  kateqoriyası arasında kombinə edilmiş çarpaz satış kampaniyalarının təşkili ümumi dövriyyəni sürətləndirə bilər.
+3. **Müştəri Sadiqliyi və Loyallıq Proqramının Gücləndirilməsi:** "Member" (Loyal) və "Normal" müştərilərin ümumi satış daxilindəki payı demək olar ki, tam bərabərdir (**50.1% vs 49.9%**). Bu o deməkdir ki, mağazadan mütəmadi alış-veriş edən kütlə ilə təsadüfi gələn müştərilərin gəlirə töhfəsi eynidir. "Normal" müştəriləri loyal bazaya köçürmək üçün qeydiyyat zamanı ilk alış-verişə xüsusi endirimlər, cashback və ya bonus sistemləri tətbiq edilməlidir.
+4. **Mövsümlülük və İnventar Planlaması:** İlkin zaman seriyası təhlili göstərir ki, **Yanvar ayı** il ərzində ən yüksək ümumi satış həcminə (**116k$**) malikdir. Yeni ilin ilk ayındakı bu kəskin tələbat artımını qarşılamaq üçün tədarük zənciri öncədən planlaşdırılmalı, dekabr ayının sonundan etibarən anbar ehtiyatları  maksimum səviyyəyə çatdırılmalıdır.
+5. **Filial və Gender Balansına Görə Marketinq:** Satışlar filiallar arasında bərabər paylansa da, qadın müştərilərin ümumi satış payı bəzi spesifik kateqoriyalarda üstünlük təşkil edir. Regional tələbata uyğun olaraq, qadın istehlakçılara yönəlmiş hədəfli rəqəmsal marketinq kampaniyaları və filialların yerləşdiyi coğrafiyaya uyğun lokal məhsul çeşidlənməsi biznesin gəlirlilik marjasını daha da artıra bilər.
