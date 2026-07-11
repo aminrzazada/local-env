@@ -12,7 +12,7 @@
 - **Kateqoriya üzrə Liderlər:** Ümumi gəlir bazasında ən yüksək satış həcmi **$113.99M** ilə `Clothing` (34,487 əməliyyat, ümumi əməliyyatların ~34.7%-i) kateqoriyasına məxsusdur, dərhal ardınca **$66.55M** ilə `Shoes` və **$57.86M** ilə `Technology` kateqoriyaları gəlir.
 - **Ödəniş Metodu:** Müştərilərin **44.7%-i Cash**, 35.1%-i Credit Card, 20.2%-i isə Debit Card ilə ödəniş edir — bu nisbət demək olar ki, bütün kateqoriyalarda eynidir.
 - **Gender Bölgüsü:** Qadın müştərilər əməliyyatların **59.8%-ni** ($150.21M gəlir), kişilər isə **40.2%-ni** ($101.30M gəlir) təşkil edir.
-- **Orta Əməliyyat Məbləği:** AVM-lər arasında ən yüksək orta çek (`avg_order_value`) **Emaar Square Mall**-a məxsusdur (~$2,578.7/əməliyyat), Mall of Istanbul (~$2,550.9) və Kanyon (~$2,550.3) ona çox yaxındır.
+- **Orta Əməliyyat Məbləği:** AVM-lər arasında ən yüksək orta çek (`avg_order_value`) **Emaar Square Mall**-a məxsusdur ($2,578.7/əməliyyat), Mall of Istanbul ($2,550.9) və Kanyon (~$2,550.3) ona çox yaxındır.
 - **İllik Gəlir:** 2022-ci il ($115.44M) 2021-ci ilə ($114.56M) nisbətən cüzi öndə olaraq ümumi gəlir baxımından ən yüksək il olub; 2023-cü ilin rəqəmi (~$21.5M) natamam data dövrünə görə əhəmiyyətli dərəcədə aşağı görünür.
 
 ## 3. Biznes Anlayışları
