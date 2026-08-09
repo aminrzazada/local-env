@@ -16,9 +16,9 @@
 ## 2. Əsas Statistik Göstəricilər
 
 - **Views ↔ Likes Korrelyasiyası:** r = **0.761**. **Qeyd:** ilkin sənəddəki "r = 0.84" rəqəminə
-  yaxındır (fərq ~0.08), istiqamət (güclü müsbət) təsdiqləndi.
+  yaxındır (fərq ~0.08), istiqamət (güclü müsbət).
 - **Comment_count ↔ Dislikes Korrelyasiyası:** r = **0.68**. **Qeyd:** ilkin sənəddəki "r = 0.71"
-  rəqəminə çox yaxındır (fərq ~0.03) — praktiki olaraq təsdiqləndi: mübahisəli videolar
+  rəqəminə çox yaxındır (fərq ~0.03) : mübahisəli videolar
   həqiqətən daha çox həm dislike, həm şərh alır.
 - **Ən Yüksək Orta Engagement Rate:** **Music (8.23%)**. **Qeyd:** ilkin sənəddəki "ən yüksək
   engagement rate: News & Politics (6.8%)" iddiası ilə **üst-üstə düşmür** — faktiki olaraq
