@@ -64,9 +64,16 @@ To clone and run these analytics notebooks locally:
    ```bash
   git clone https://github.com/aminrzazada/local-env.git
   cd local-env
+  
 2. **Containerized Setup (Optional):**
    ```bash
    docker-compose up -d
+
+
+
+
+
+
 
 👤 Author
 Amin Rzazada
